@@ -12,11 +12,11 @@ const Navigation = (toggleMenu) => {
             </Link>
            <div id="burger-and-contact">
                 <BurguerMenu onClick={toggleMenu.toggleMenu} id="burger-menu"/>
-                <button class="button gray">
+                <a href="mailto:theraspanishplay@gmail.com" class="button gray">
                     <p id="contact-us-text">
                         contact us
                     </p>
-                </button>
+                </a>
            </div>
         </div>
     );

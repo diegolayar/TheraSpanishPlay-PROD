@@ -25,6 +25,9 @@
 .button p {
     width: auto !important;
 }
+#burger-and-contact .button {
+    text-decoration: none;
+}
 #burger-menu {
     height: 20px;
     width: 35px;
