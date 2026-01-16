@@ -1,4 +1,4 @@
-import { Link, useHistory } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { ReactComponent as Logo } from '../../assets/navigation-assets/Logo.svg';
 import { ReactComponent as BurguerMenu } from '../../assets/navigation-assets/BurgerMenu.svg';
 import "./Navigation.css"

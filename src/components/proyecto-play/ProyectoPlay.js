@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useRef, useState } from 'react';
 import '../../App.css';
 import './ProyectoPlay.css';
 import Footer from '../footer/Footer.js';

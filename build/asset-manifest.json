@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.2f7f33d8.css",
-    "main.js": "/static/js/main.566ae44a.js",
+    "main.css": "/static/css/main.6520a023.css",
+    "main.js": "/static/js/main.cd096337.js",
     "static/media/Founder.svg": "/static/media/Founder.43fbc8044fa6aaf013fc68c60bc6f94d.svg",
     "static/media/CounselingCenter3.svg": "/static/media/CounselingCenter3.91456c84b07da6b871166313e677a403.svg",
     "static/media/CounselingCenter2.svg": "/static/media/CounselingCenter2.848655673173f78a61e5c1aee8805613.svg",
@@ -27,6 +27,7 @@
     "static/media/Inter-Regular.ttf": "/static/media/Inter-Regular.2391725004ae05a27e8e.ttf",
     "static/media/AJugarMobile.svg": "/static/media/AJugarMobile.0026c9bfab289c4a1dd73e3673a37edf.svg",
     "static/media/FamilyDay3.svg": "/static/media/FamilyDay3.ebc88c3e2f6a769ff9d41dba39c58a6b.svg",
+    "static/media/connect-ando-hero-3d54ee.png": "/static/media/connect-ando-hero-3d54ee.c1979a1f897393532b16.png",
     "static/media/MainGoal.svg": "/static/media/MainGoal.d5e4d342e1152c32b27aa19d19701dc9.svg",
     "static/media/MainGoalMobile.svg": "/static/media/MainGoalMobile.06b9979f1fcf8617f749816519218864.svg",
     "static/media/Rubik-Regular.ttf": "/static/media/Rubik-Regular.da39336cfcac7980f2f1.ttf",
@@ -49,11 +50,12 @@
     "static/media/Ovalo.svg": "/static/media/Ovalo.eef4b954900a116e2314cb5755ee886e.svg",
     "static/media/BurgerMenu.svg": "/static/media/BurgerMenu.596db57cf13db174ae9dff25664b93b2.svg",
     "static/media/MissingImage.svg": "/static/media/MissingImage.517a1f5879a36064e377a53b166b12f2.svg",
-    "main.2f7f33d8.css.map": "/static/css/main.2f7f33d8.css.map",
-    "main.566ae44a.js.map": "/static/js/main.566ae44a.js.map"
+    "static/media/connect-ando-shape.svg": "/static/media/connect-ando-shape.a88313b9d2d032822424c2095a0a6dd8.svg",
+    "main.6520a023.css.map": "/static/css/main.6520a023.css.map",
+    "main.cd096337.js.map": "/static/js/main.cd096337.js.map"
   },
   "entrypoints": [
-    "static/css/main.2f7f33d8.css",
-    "static/js/main.566ae44a.js"
+    "static/css/main.6520a023.css",
+    "static/js/main.cd096337.js"
   ]
 }
