@@ -294,16 +294,22 @@
 
 /* Mobile Responsive */
 @media only screen and (max-width: 900px) {
+    .connect-ando-page.purple {
+        background-color: transparent;
+    }
+
     .connect-ando-hero {
         flex-direction: column;
         min-height: auto;
-        padding-top: 100px;
+        background-color: transparent;
     }
 
     .hero-content {
-        padding: 20px;
+        background-color: #C6BCFF;
+        padding: 120px 20px 40px 20px;
         max-width: 100%;
-        order: 2;
+        width: 100%;
+        box-sizing: border-box;
     }
 
     .hero-title {
@@ -317,14 +323,14 @@
     }
 
     .connect-ando-logo {
-        width: 200px;
+        width: 280px;
     }
 
     .hero-image {
         position: relative;
         width: 100%;
         max-width: 100%;
-        order: 1;
+        height: auto;
     }
 
     .content-overlay {
@@ -421,7 +427,7 @@
     }
 
     .connect-ando-logo {
-        width: 160px;
+        width: 240px;
     }
 
     .recommendations-title h2 {
