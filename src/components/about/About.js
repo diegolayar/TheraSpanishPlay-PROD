@@ -1,5 +1,4 @@
-import { React, useEffect } from 'react';
-import { Link, useHistory } from 'react-router-dom';
+import React from 'react';
 
 import '../../App.css';
 import './About.css'

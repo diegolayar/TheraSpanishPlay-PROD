@@ -1,7 +1,6 @@
 import "./Footer.css"
 import "../../App.css"
 import React, { useRef, useState } from 'react';
-import { Link, usesHistory } from 'react-router-dom';
 import emailjs from '@emailjs/browser';
 
 const Footer = () => {

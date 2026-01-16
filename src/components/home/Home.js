@@ -1,5 +1,5 @@
-import { React, useEffect } from 'react';
-import { Link, useHistory } from 'react-router-dom';
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 import '../../App.css';
 import './Home.css'
@@ -10,7 +10,6 @@ import { ReactComponent as Rectangle } from '../../assets/navigation-assets/Rect
 import { ReactComponent as Ovalo } from '../../assets/navigation-assets/Ovalo.svg';
 import { ReactComponent as Rayon } from '../../assets/navigation-assets/Rayon.svg';
 import Footer from '../footer/Footer.js';
-import $ from 'jquery';
 
 const Home = () => {
 
