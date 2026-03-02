@@ -164,6 +164,16 @@
     color: #000000;
     cursor: pointer;
     width: fit-content;
+    transition: transform 0.2s ease, filter 0.2s ease;
+}
+
+.modality-button:hover {
+    transform: scale(1.05);
+    filter: brightness(1.1);
+}
+
+.modality-button:active {
+    transform: scale(0.97);
 }
 
 .modality-content {
@@ -221,6 +231,16 @@
     color: #F2F2F2;
     text-decoration: none;
     cursor: pointer;
+    transition: transform 0.2s ease, filter 0.2s ease;
+}
+
+.share-button:hover {
+    transform: scale(1.05);
+    filter: brightness(1.1);
+}
+
+.share-button:active {
+    transform: scale(0.97);
 }
 
 /* Creative Team Section */

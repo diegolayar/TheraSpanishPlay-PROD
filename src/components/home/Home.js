@@ -6,9 +6,14 @@ import './Home.css'
 import { ReactComponent as PrivateClasses } from '../../assets/navigation-assets/PrivateClasses.svg';
 import { ReactComponent as ProyectoPlay } from '../../assets/navigation-assets/ProyectoPlay.svg';
 import { ReactComponent as Illustration } from '../../assets/navigation-assets/Illustration.svg';
+import connectAndoLogo from '../../assets/navigation-assets/connect-ando-logo.png';
+import connectAndoHero from '../../assets/navigation-assets/connect-ando-hero-3d54ee.png';
 import { ReactComponent as Rectangle } from '../../assets/navigation-assets/Rectangle.svg';
 import { ReactComponent as Ovalo } from '../../assets/navigation-assets/Ovalo.svg';
 import { ReactComponent as Rayon } from '../../assets/navigation-assets/Rayon.svg';
+import { ReactComponent as GamesShape } from '../../assets/navigation-assets/GamesShape.svg';
+import { ReactComponent as SoundsShape } from '../../assets/navigation-assets/SoundsShape.svg';
+import { ReactComponent as ActivitiesShape } from '../../assets/navigation-assets/ActivitiesShape.svg';
 import Footer from '../footer/Footer.js';
 
 const Home = () => {
@@ -38,6 +43,23 @@ const Home = () => {
                     </button>
                 </div>
                 <Illustration id="illustration"/>
+            </div>
+            <div id="connect-ando-preview" className='purple'>
+                <div className='preview-content'>
+                    <div className='preview-text'>
+                        <img src={connectAndoLogo} alt='Connect-ando Logo' className='preview-logo' />
+                        <p className='preview-description'>
+                            Connect-ando turns your first move into your first phrases in Spanish!
+                            A bilingual card game with 6 modalities for the whole family.
+                        </p>
+                        <button className="button bright-yellow">
+                            <Link to="/connect-ando" title="Connect-ando">
+                                <p className='black-text'>discover connect-ando</p>
+                            </Link>
+                        </button>
+                    </div>
+                    <img src={connectAndoHero} alt='Connect-ando Game' className='preview-image' />
+                </div>
             </div>
             <div id="brief" style={{height: `${window.screen.height}px`}} className='teal'>
                 <div className='info-portion'>
@@ -100,12 +122,15 @@ const Home = () => {
                     </p>
                 </div>
             </div>
-            <div className="bright-yellow portion">
+            <a href="https://www.instagram.com/theraspanishplay/" target="_blank" rel="noopener noreferrer" id="follow-us-section" className="purple">
+                <GamesShape className="follow-shape follow-shape-1"/>
+                <SoundsShape className="follow-shape follow-shape-2"/>
+                <ActivitiesShape className="follow-shape follow-shape-3"/>
                 <div id="follow-us-container">
                     <h2>Follow Us</h2>
                     <h2>@THERASPANISHPLAY</h2>
                 </div>
-            </div>
+            </a>
             <div className='unconstrained-portion bright-yellow'>
                 <div style={{'width':'90%'}}>
                     <Footer/>

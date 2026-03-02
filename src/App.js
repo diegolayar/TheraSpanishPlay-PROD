@@ -17,9 +17,7 @@ function App() {
   return (
     <>
       <Router>
-          {
-            showMenu && <Menu toggleMenu={toggleMenu}/>
-          }
+          <Menu toggleMenu={toggleMenu} showMenu={showMenu}/>
           <Navigation toggleMenu={toggleMenu}/>
           <Routes />
       </Router>

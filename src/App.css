@@ -1,5 +1,15 @@
+.button, button, input, a.share-button {
+  transition: transform 0.2s ease, filter 0.2s ease, box-shadow 0.2s ease;
+}
+
 .button:hover, button:hover, input:hover {
   cursor: pointer;
+  transform: scale(1.05);
+  filter: brightness(1.1);
+}
+
+.button:active, button:active {
+  transform: scale(0.97);
 }
 
 html {
@@ -111,7 +121,7 @@ html {
   margin: 0;
   padding: 0;
   justify-content: center;
-  overflow: scroll;
+  overflow: hidden;
   position: relative;
 }
 
